@@ -12,7 +12,7 @@ This project demonstrates key React concepts including state management, compone
 
 🔗 *Add your live deployed link here (Netlify / Vercel)*  
 If deployed:
-**https://your-app-link.netlify.app**
+https://stellular-donut-5a668f.netlify.app/
 
 ---
 
