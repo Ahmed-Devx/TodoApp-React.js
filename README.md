@@ -3,15 +3,11 @@
 
 A modern and responsive **To-Do List App** built with **React JS** and **Tailwind CSS**.  
 This project demonstrates key React concepts including state management, component architecture, props, and a clean UI/UX.
-
-👉 You can use this as a standalone project or as part of a portfolio to showcase your React skills!
-
+ 
 ---
 
 ## 🌟 Live Demo
-
-🔗 *Add your live deployed link here (Netlify / Vercel)*  
-If deployed:
+Check it: 
 https://inspiring-salamander-edf796.netlify.app/
 
 ---
@@ -90,7 +86,7 @@ http://localhost:5173
 
 ## 🧠 What You’ll Learn
 
-* React Hooks: `useState`, `useEffect`
+* React Hooks: `useState`
 * Lifting state up & passing props
 * Array operations with map(), filter(), spread operator
 * Component design & reusability
@@ -113,9 +109,7 @@ You can enhance this app by adding:
 
 ## 👨‍💻 Author
 
-**Ahmed Devx** – Frontend Developer
-🔗 GitHub: [https://github.com/Ahmed-Devx](https://github.com/Ahmed-Devx)
-🔗 LinkedIn: [https://linkedin.com/in/ahmed-devx](https://linkedin/in/ahmed-devx)
+**Muhammad Ahmed** – Frontend Developer
 
 ---
 
