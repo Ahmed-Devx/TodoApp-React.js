@@ -1,38 +1,35 @@
 const TodoItem = ({ todo, deleteTodo, toggleComplete, editTodo }) => {
   return (
     <li
-      className={`group flex items-center justify-between p-4 rounded-2xl border transition-all duration-300
-      ${todo.completed ? "bg-slate-50/50 border-transparent" : "bg-white border-slate-100 shadow-sm hover:shadow-md hover:border-indigo-100"}
+      className={`flex items-center justify-between p-5 mb-4 rounded-3xl border transition-all duration-500
+      ${todo.completed ? "bg-white/[0.02] border-transparent" : "bg-white/[0.04] border-white/5 hover:border-violet-500/30 shadow-sm"}
     `}
     >
-      <div className="flex items-center gap-4">
-        <div className="relative flex items-center justify-center">
-          <input
-            type="checkbox"
-            checked={todo.completed}
-            onChange={() => toggleComplete(todo.id)}
-            className="w-5 h-5 rounded-full border-2 border-slate-300 appearance-none checked:bg-indigo-600 checked:border-indigo-600 cursor-pointer transition-all"
-          />
+      <div className="flex items-center gap-4 flex-1 min-w-0">
+        <button
+          onClick={() => toggleComplete(todo.id)}
+          className={`w-6 h-6 rounded-full border-2 flex items-center justify-center transition-all duration-300
+            ${todo.completed ? "bg-violet-500 border-violet-500 shadow-[0_0_15px_rgba(139,92,246,0.5)]" : "border-slate-600 hover:border-violet-400"}
+          `}
+        >
           {todo.completed && (
-            <span className="absolute text-white text-[10px] pointer-events-none">
-              ✓
-            </span>
+            <span className="text-white text-[10px] font-black">✓</span>
           )}
-        </div>
+        </button>
 
         <span
-          className={`text-sm font-medium transition-all duration-300 ${
-            todo.completed ? "line-through text-slate-400" : "text-slate-700"
+          className={`text-[16px] font-medium truncate tracking-wide ${
+            todo.completed ? "text-slate-600 line-through" : "text-slate-200"
           }`}
         >
           {todo.text}
         </span>
       </div>
 
-      <div className="flex gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+      <div className="flex gap-2 ml-4">
         <button
           onClick={() => editTodo(todo)}
-          className="p-2 text-slate-400 hover:text-amber-500 hover:bg-amber-50 rounded-xl transition"
+          className="p-2 text-slate-500 hover:text-amber-400 bg-white/5 rounded-xl transition-all"
         >
           <svg
             className="w-4 h-4"
@@ -50,7 +47,7 @@ const TodoItem = ({ todo, deleteTodo, toggleComplete, editTodo }) => {
         </button>
         <button
           onClick={() => deleteTodo(todo.id)}
-          className="p-2 text-slate-400 hover:text-red-500 hover:bg-red-50 rounded-xl transition"
+          className="p-2 text-slate-500 hover:text-rose-500 bg-white/5 rounded-xl transition-all"
         >
           <svg
             className="w-4 h-4"
