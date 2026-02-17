@@ -109,7 +109,7 @@ You can enhance this app by adding:
 
 ## 👨‍💻 Author
 
-**Muhammad Ahmed** – Frontend Developer
+**Muhammad Ahmed** 
 
 ---
 
