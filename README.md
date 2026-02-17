@@ -1,5 +1,5 @@
  
-# 📋 React To-Do App
+# 📋 React TodoApp
 
 A modern and responsive **To-Do List App** built with **React JS** and **Tailwind CSS**.  
 This project demonstrates key React concepts including state management, component architecture, props, and a clean UI/UX.
