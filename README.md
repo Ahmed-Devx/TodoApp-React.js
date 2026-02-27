@@ -102,7 +102,7 @@ You can enhance this app by adding:
 ✔ Task filters (All / Completed / Active)
 ✔ Dark mode toggle
 ✔ Animations using Framer Motion
-✔ Drag & drop task reordering
+ 
 
 ---
 
