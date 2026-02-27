@@ -1,4 +1,3 @@
- 
 # 📋 React TodoApp
 
 A modern and responsive **To-Do List App** built with **React JS** and **Tailwind CSS**.  
